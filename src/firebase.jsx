@@ -2,12 +2,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBKSPP15lebqNGDKzmN07e56jfL5rqOZFw",
-  authDomain: "twitterclone-ca8eb.firebaseapp.com",
-  projectId: "twitterclone-ca8eb",
-  storageBucket: "twitterclone-ca8eb.appspot.com",
-  messagingSenderId: "601603684511",
-  appId: "1:601603684511:web:714165c69447b6ea4f8aaa"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGIN_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
 
 
